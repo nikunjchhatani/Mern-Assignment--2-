@@ -1,14 +1,3 @@
-Simple Blog project
-1- Imported Tushar Sir's project
-2- making changes to it
-
-## Installation:
-  #### Install mongoDB and NodeJS
-  ### `Go to /blogApp-backend/ folder`
-  #### Install all dev and production dependencies in backend and frontend folder using : 
-  ```bash
-  npm install
-  ```
   #### Declare environment variables
   ### Now insert your mongodb atlas cluster datbase URI in .env file in backend
   ```txt
@@ -17,7 +6,16 @@ Simple Blog project
   ```
 
  ### also insert your custom jwt secret key
-  ### `Go to /blogApp-frontend/ folder`
+
+ ## Installation:
+  #### Install mongoDB and NodeJS
+  ### `Go to /blogApp-backend/ folder`
+  #### Install all dev and production dependencies in backend folder using : 
+  ```bash
+  npm install
+  ```
+
+  ### `Go to ./frontend/ folder`
   In the project directory, you can run:
   #### Install all dev and production dependencies
   ```bash
@@ -28,6 +26,6 @@ Simple Blog project
 ```bash
 npm start
 ```
+now it should automatically redirect you to the website.
 
-Runs the app in the development mode.<br /> 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+THANK YOU.
