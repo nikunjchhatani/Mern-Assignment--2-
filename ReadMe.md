@@ -10,13 +10,13 @@ Simple Blog project
   npm install
   ```
   #### Declare environment variables
-  ###### Now insert your mongodb atlas cluster datbase URI in .env file in backend
+  ### Now insert your mongodb atlas cluster datbase URI in .env file in backend
   ```txt
   MONGO_URI = 'Your mongo url'
   SECRET = 'secret for Passport'
   ```
 
- ###### also insert your custom jwt secret key
+ ### also insert your custom jwt secret key
   ### `Go to /blogApp-frontend/ folder`
   In the project directory, you can run:
   #### Install all dev and production dependencies
